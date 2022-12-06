@@ -6,10 +6,13 @@ import Home from "../screen/Home";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/ActivityFeed" element={<ActivityFeed />} />
+      <Route path="/doss_verse_webview" element={<Home />} />
       <Route
-        path="/SomePage"
+        path="/doss_verse_webview/ActivityFeed"
+        element={<ActivityFeed />}
+      />
+      <Route
+        path="/doss_verse_webview/SomePage"
         element={<div style={{ color: "#fff" }}>Some Page</div>}
       />
     </Routes>

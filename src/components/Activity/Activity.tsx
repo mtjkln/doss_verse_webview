@@ -32,7 +32,7 @@ const Activity: React.FC<IActivity> = ({ time, tag, description }) => {
       </div>
 
       <button
-        onClick={() => navigate("/SomePage")}
+        onClick={() => navigate("/doss_verse_webview/SomePage")}
         style={{
           backgroundColor:
             tag === 0 || tag === 1

@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <button
         onClick={() => {
-          navigate("/ActivityFeed");
+          navigate("/doss_verse_webview/ActivityFeed");
         }}
       >
         Activity Feed
