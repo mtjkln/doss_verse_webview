@@ -6,8 +6,8 @@ import Home from "../screen/Home";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={<ActivityFeed />} />
-      <Route path="/ActivityFeed" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/ActivityFeed" element={<ActivityFeed />} />
       <Route
         path="/SomePage"
         element={<div style={{ color: "#fff" }}>Some Page</div>}
