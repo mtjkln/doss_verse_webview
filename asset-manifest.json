@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/doss_verse_webview/static/css/main.e8886dc7.css",
+    "main.js": "/doss_verse_webview/static/js/main.0bffed0d.js",
+    "static/js/787.26166f23.chunk.js": "/doss_verse_webview/static/js/787.26166f23.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/doss_verse_webview/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "index.html": "/doss_verse_webview/index.html",
+    "main.e8886dc7.css.map": "/doss_verse_webview/static/css/main.e8886dc7.css.map",
+    "main.0bffed0d.js.map": "/doss_verse_webview/static/js/main.0bffed0d.js.map",
+    "787.26166f23.chunk.js.map": "/doss_verse_webview/static/js/787.26166f23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8886dc7.css",
+    "static/js/main.0bffed0d.js"
+  ]
+}
