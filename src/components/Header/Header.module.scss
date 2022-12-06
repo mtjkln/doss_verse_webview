@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px 32px 24px;
+    background: #372B47;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    color: #fff;
+   
+.nameAndLogo{
+    font-family: 'Montserrat';
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    
+
+    .dossLogo{
+        
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+}
+.currencies{
+   display: flex;
+    .dossGem{
+        font-family: 'Montserrat';
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+    font-size: 14px;
+    margin-right: 12px;
+    .dossLogo{
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }}
+    .dossToken{
+        display: flex;
+        align-items: center;
+        .dossLogo{
+            width: 24px;
+            height: 24px;
+            margin-right: 6px;
+        }
+    }
+}
+}

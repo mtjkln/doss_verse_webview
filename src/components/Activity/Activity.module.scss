@@ -1,0 +1,56 @@
+.container{
+    padding: 10px ;
+    border-bottom: 1px solid white ;
+    color: #fff;
+   
+       
+        .button{
+           display: block;
+           width: 100%;
+           padding: 10px;
+           background-color: #adadad;
+           border-radius: 8px;
+           border: none;
+           transition: all 0.2s;
+           color: #fff;
+           &:hover{
+            opacity: 0.6;
+           }
+       }
+
+    
+      
+   
+    .tag{
+        display: inline-block;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: 500;
+        border: 0.5px solid white;
+        border-radius: 15px;
+        margin-bottom: 16px;
+    }
+    .activity{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        .icon{
+            width: 40px;
+            height: 40px;
+        }
+        .descriptionAndTime{
+            display: flex;
+            height: 40px;
+            padding-left: 16px;
+            font-weight: 500;
+            font-size: 14px;
+            .description{
+                margin-right: 10px;
+            }
+            .time{
+                color: #adadad;
+            }
+        }
+    }
+   
+}

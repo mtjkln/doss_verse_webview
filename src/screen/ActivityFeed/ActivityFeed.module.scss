@@ -1,0 +1,18 @@
+.mainContainer{
+    margin: 0;
+    padding:0px 10px 0px 10px ;
+    color:#fff;
+    font-family: 'Montserrat';
+    .header{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        .dossActivity{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        .subHeading{
+            font-size: 10px;
+        }
+    }
+}
